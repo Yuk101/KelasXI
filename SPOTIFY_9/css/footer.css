@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'spotipi';
+    src: url(../font/Gotham-Font/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: 'spotipi tipis';
+    src: url(../font/Gotham-Font/Gotham-Light.otf);
+}
+
+
+*
+{
+    background-color: rgb(13, 13, 13);
+    color: white;
+    font-family: 'spotipi';
+    font-size: 14px;
+}
+
+#footer
+{
+    float: left;
+    width: 1200px;
+    height: 1000px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+#footer_kiri ul
+{
+    float: left;
+    margin-left: 20px;
+}
+
+#footer_kiri ul li
+{
+    margin-top: 30px;
+    list-style: none;
+}
+
+#footer_kiri a
+{
+    text-decoration: none;
+}
+
+#footer_kiri li:hover
+{
+    color: #1ed760;
+}
+
+#footer_kanan
+{
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+#footer_kanan div
+{
+    margin-top: 20px;
+}
+
+
+#footer_kanan a:hover img
+{
+    background-color: #1ed760;
+}

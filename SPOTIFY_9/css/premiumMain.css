@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'spotipi';
+    src: url(../font/Gotham-Font/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: 'spotipi tipis';
+    src: url(../font/Gotham-Font/Gotham-Light.otf);
+}
+
+
+*
+{
+    background-color: rgb(13, 13, 13);
+    color: white;
+    font-family: 'spotipi';
+    font-size: 14px;
+}
+
+body
+{
+    margin: 0px;
+}
+
+#iklan
+{
+    width: 1200px;
+    height: 200px;
+    float: left;
+    text-align: left;
+    margin-left: 180px;
+}
+
+#coba
+{
+    width: 230px; 
+    height: 20px; 
+    border-radius:35px; 
+    background-color:rgb(36, 37, 37); 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 20px 0px;
+}
+
+#coba:hover
+{
+    transform: scale(1.03);
+}
+
+#lihat
+{
+    width: 150px; 
+    height: 20px; 
+    border-radius:35px; 
+    border: 1px; 
+    border-style: solid; 
+    border-color: rgb(58, 61, 61); 
+    background-color:rgb(13, 13, 13); 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 20px 0px;
+}
+
+#lihat:hover
+{
+    transform: scale(1.03);
+}
+
+#article
+{
+    float: left;
+    width: 1500px;
+    height: 675px;
+    margin-top: 200px;
+    background-color: rgb(57, 73, 89);
+}
+
+#memperkenalkan-premium-mini
+{
+    float: left;
+    width: 1500px;
+    height: 400px;
+}
+
+#hari2500
+{
+    width: 200px;
+    height: 20px;
+    border: 1px; 
+    border-radius: 35px;
+    border-style: solid; 
+    border-color: rgb(36, 37, 37); 
+    background-color:rgb(36, 37, 37); 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 20px 0px;
+}
+
+#minggu9500
+{
+    width: 200px;
+    height: 20px;
+    border: 1px; 
+    border-radius: 35px;
+    border-style: solid; 
+    border-color: rgb(36, 37, 37); 
+    background-color:rgb(36, 37, 37); 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 20px 0px;
+}
+
+#hari2500:hover
+{
+    transform: scale(1.03);
+}
+
+#minggu9500:hover
+{
+    transform: scale(1.03);
+}
+
+#cari-dan-putar
+{
+    float: left;
+    width: 1500px;
+    height: 250px;
+}
+
+#tanpa-gangguan
+{
+    float: left;
+    width: 1500px;
+    height: 600px;
+}
+
+#teks-kiri
+{
+    float: left;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+#teks-kanan
+{
+    float: left;
+    margin-left: 100px;
+}
+
+#paket-yang-tersedia
+{
+    float: left;
+    width: 1500px;
+    height: 1250px;
+}
+
+#paket-yang-tersedia ul
+{
+    list-style: none;
+}
+
+#paket-yang-tersedia li
+{
+    float:left;
+    margin-left: 15px;
+}
+
+#lainnya
+{
+    visibility: hidden;
+    position: absolute;
+    height: 20px;
+    float: left;
+    text-align: left;
+}
+
+#paket-yang-tersedia li:hover #lainnya
+{
+    visibility: visible;
+}
+
+#paket-yang-tersedia li li
+{
+    float: left;
+    margin-left: -100px;
+    margin-top: 10px;    
+}
+
+#harga-paket
+{
+    margin-left: 180px;
+    margin-top: 100px;
+    height: 750px;
+}
+
+#paket
+{
+    width: 270px;
+    height: 700px;
+    background-color: rgb(36, 37, 37);
+    border-radius: 10px;
+    float: left;
+    margin: 0px 7px;
+}
+
+#paket .profit
+{
+    list-style: circle;
+    background-color: transparent;
+    margin: 10px 15px 0px 0px;
+}
+
+#mulai
+{
+    height: 40px;
+    padding-top: 15px;
+    margin: 0px 15px;
+    width: 240px;
+    border-radius: 35px;
+    background-color:rgb(13, 13, 13);
+    text-align: center;
+}
+
+#mulai:hover
+{
+    transform: scale(1.03);
+    background-color: rgb(14, 14, 14);
+}
+
+#diskon-mahasiswa
+{
+    border-radius: 10px;
+    width: 750px;
+    height: 100px;
+    background-color: rgb(36, 37, 37);
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+#dm-kiri
+{
+    background-color: transparent;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    margin: 35px 0px 0px 20px;
+    text-align: left;
+}
+
+#dm-kanan
+{
+    background-color: transparent;
+    float: left;
+    width: 20%;
+    margin-top: 25px;
+}
+
+#dm_kanan_tombol
+{
+    border-radius: 25px; 
+    height: 60px; 
+    width: 300px; 
+    background-color: transparent; 
+    border: 1px solid white;
+}
+
+#dm_kanan_tombol:hover
+{
+    transform: scale(1.03);
+}
