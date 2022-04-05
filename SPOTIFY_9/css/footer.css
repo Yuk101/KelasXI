@@ -21,7 +21,7 @@
 {
     float: left;
     width: 1200px;
-    height: 1000px;
+    height: 450px;
     margin-left: 180px;
     margin-top: 50px;
 }
@@ -61,7 +61,55 @@
 }
 
 
-#footer_kanan a:hover img
+#logo_sosmed:hover .logo_sosmed
 {
     background-color: #1ed760;
+}
+
+.logo_sosmed
+{
+    background-color: white; 
+    margin: 12px 0px 0px 12px;
+}
+
+#logo_sosmed
+{
+    width: 50px; 
+    height: 50px; 
+    border: 1px solid rgb(39, 40, 39); 
+    border-radius: 25px; 
+    background-color: rgb(39, 40, 39);
+}
+
+#foooter
+{
+    width: 1200px;
+    margin-top: 350px;
+}
+
+#foooter ul
+{
+    float: left;
+    font-size: 10px;
+}
+
+#foooter ul li
+{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    color: rgb(165, 156, 143);
+    font-size: 10px;
+}
+
+#footer a
+{
+    color: rgb(165, 165, 143);
+    font-size: 10px;
+    text-decoration: none;
+}
+
+#footer a:hover
+{
+    color: #1ed760;
 }
